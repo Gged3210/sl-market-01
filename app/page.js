@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <>
         <MainLayout>
-          <CarouselComp />
+          {/* <CarouselComp /> */}
 
           <div className="max-w-[1200px] mx-auto">
             <div className="text-2xl font-bold mt-4 mb-6 px-4">Products</div>

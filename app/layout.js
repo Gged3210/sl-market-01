@@ -5,8 +5,8 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 export const metadata = {
-  title: 'eBay Clone',
-  description: 'eBay Clone',
+  title: 'SurplusLoop Marketplace',
+  description: 'Turn assets into cashflow',
 }
  
 export default function RootLayout({ children }) {

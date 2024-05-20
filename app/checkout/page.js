@@ -227,7 +227,7 @@ export default function Checkout() {
                         </ClientOnly>
 
                         <div className="flex items-center p-4 justify-center gap-2 border-t">
-                            <img width={50} src="/images/logo.svg" />
+                            <img width={50} src="https://hdrtqrszhanmwmvwrklo.supabase.co/storage/v1/object/sign/sl-market/oven-poofer.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJzbC1tYXJrZXQvb3Zlbi1wb29mZXIud2VicCIsImlhdCI6MTcxNjE5ODExMCwiZXhwIjoxODAyNTExNzEwfQ.vJ0sqEMxLJR0Pyo4vbqbQFBXURr8hRhUzvBzRXm4Yzs&t=2024-05-20T09%3A41%3A50.811Z" />
                             <div className=" font-light mb-2 mt-2">MONEY BACK GUARANTEE</div>
                         </div>
                     </div>

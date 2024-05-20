@@ -60,7 +60,7 @@ export default function Product({ params }) {
                     Price: 
                     {product?.price 
                       ? <div className="font-bold text-[20px] ml-2">
-                          GBP £{(product?.price / 100).toFixed(2)}
+                          $ {(product?.price / 100).toFixed(2)}
                         </div> 
                     : null }
                   </div>
@@ -79,7 +79,7 @@ export default function Product({ params }) {
                       ${cart.isItemAdded ? 'bg-[#e9a321] hover:bg-[#bf851a]' : 'bg-[#3498C9] hover:bg-[#0054A0]'}
                     `}
                   >
-                      {cart.isItemAdded ? 'Remove From Cart' : 'Add To Cart'}
+                      {cart.isItemAdded ? 'Remove From Cart' : 'Place Bid'}
                   </button>
                 </div>
               </div>
